@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<head>
+    <title>REGISTRATION FORM </title>
+</head>
+<style>
+     body {
+      font-family: Arial;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .form{
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+   
+  
+    }
+    
+    
+</style>
+<script>
+   function fun(){
+        let name = document.getElementById("name").value;
+      document.write(`${name} is successfully registered`);
+    }
+</script>
+<body>
+    <div class="form">
+   <center> <h1>REGISTRATION FORM</h1></center>
+    <center><label>name:</label>
+    <input type="text" id="name" placeholder="enter name"><br><br>
+     <label>email:</label>
+    <input type="text" id="name" placeholder="enter mail"><br><br>
+    <label>phone no:</label>
+    <input type="text" id="name" placeholder="enter mail"><br><br>
+    <label>Role:</label>
+    <select name="role" id="">
+        <option value="">student</option>
+        <option value="">facuty</option>
+    </select><br><br>
+    <button style="padding:10px " onclick="fun()">submit</button>
+    </div></center>
+</body>
+</body>
